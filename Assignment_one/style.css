@@ -6,7 +6,6 @@
 .pointform{
   padding-left: 20vw;
   padding-right: 20vw;
-  position: relative;
   line-height: 2;
   background-color: white;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
@@ -14,9 +13,14 @@
 
 article ul{
   background: #ff949e;
- padding: 20px;
-}
 
+
+}
+ li{
+   margin-left:25vw;
+   margin-right:20vw;
+
+ }
 
 
 
