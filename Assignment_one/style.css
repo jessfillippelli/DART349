@@ -74,8 +74,24 @@ article{
 }
 
 article h1{
-  font-size: 40px;
+  padding-top: 20px;
+  font-size: 20px;
   text-transform: uppercase;
+  text-align: center;
+}
+
+article h2{
+  padding-top: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+article h3{
+  padding-top: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /* make img rep*/
