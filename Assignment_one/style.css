@@ -69,6 +69,22 @@ a{
 
   text-align: center;
 }
+
+.PAR {
+  padding-left: 500px;
+  padding-right: 500px;
+	position: relative;
+	font-size:10vw
+	background-color: white;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+
+}
+
+article p {
+margin: 0 auto;
+padding-left: 500px;
+padding-right: 500px;
+}
 article{
   padding: 20px;
 }
