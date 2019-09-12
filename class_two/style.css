@@ -88,3 +88,9 @@ article p{
   line-height: 22px;
   margin-bottom: 20px;
 }
+
+footer{
+  padding: 20px;
+  background-color: black;
+  color: #fff;
+}
