@@ -39,15 +39,46 @@ nav  {
 }
 
 /* the a tags in the are differnt from teh a tags in the par*/
-nav a {
+nav a:link {
   display: inline-block;
+  padding: 20px;
+  color:#000;
+  text-decoration: none;
+}
+
+nav a:visited {
+  display: inline-block;
+  padding: 20px;
+  color: pink;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: blue;
+  color: pink;
+  text-decoration: none;
+}
+
+nav a:active {
+  background-color: black;
+  color: #fff;
+  text-decoration: none;
+}
+
+a{
+
+  text-align: center;
+}
+article{
   padding: 20px;
 }
 
+article h1{
+  font-size: 40px;
+  text-transform: uppercase;
+}
 
-
-
-a{
-  text-decoration: none;
-  text-align: center;
+/* make img rep*/
+article img{
+  width: 100%;
 }
