@@ -3,6 +3,21 @@
   margin: 0;
 }
 
+.pointform{
+  padding-left: 20vw;
+  padding-right: 20vw;
+  position: relative;
+  line-height: 2;
+  background-color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
+article ul{
+  background: #ff949e;
+ padding: 20px;
+}
+
+
 
 
 body{
@@ -76,13 +91,11 @@ article p {
   padding-left: 20vw;
   padding-right: 20vw;
   position: relative;
-  /*font-size:10vw;*/
+  line-height: 2.5;
   background-color: white;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
-article{
-  padding: 20px;
-}
+
 
 article h1{
   padding-top: 20px;
@@ -110,11 +123,6 @@ article img{
   width: 100%;
 }
 
-article p{
-  font-size: 18px;
-  line-height: 22px;
-  margin-bottom: 20px;
-}
 
 footer{
   padding: 20px;
