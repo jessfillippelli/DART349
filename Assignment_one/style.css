@@ -70,20 +70,15 @@ a{
   text-align: center;
 }
 
-.PAR {
-  padding-left: 20vw;
-  padding-right: 20vw;
-	position: relative;
-	/*font-size:10vw;*/
-	background-color: white;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 
-}
 
 article p {
-margin: 0 auto;
-padding-left: 500px;
-padding-right: 500px;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  position: relative;
+  /*font-size:10vw;*/
+  background-color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
 article{
   padding: 20px;
