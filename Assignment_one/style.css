@@ -18,6 +18,14 @@
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
 
+.pointformthree{
+  padding-left: 20vw;
+  padding-right: 20vw;
+  line-height: 2;
+  background-color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
+
 article ul{
   background: #ff949e;
 
@@ -128,6 +136,27 @@ article h3{
   text-transform: uppercase;
   text-align: center;
 }
+
+article h4{
+  padding-top: 5px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+header a{
+  text-decoration: none;
+  padding-top: 5px;
+  font-size: 15px;
+  text-align: center;
+  color: white;
+
+}
+
+
+
+
+
 
 /* make img rep*/
 article img{
