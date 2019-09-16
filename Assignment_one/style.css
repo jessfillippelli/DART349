@@ -10,6 +10,13 @@
   background-color: white;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
 }
+.pointformtwo{
+  padding-left: 20vw;
+  padding-right: 20vw;
+  line-height: 2;
+  background-color: white;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif"
+}
 
 article ul{
   background: #ff949e;
