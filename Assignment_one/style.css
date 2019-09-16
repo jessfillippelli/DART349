@@ -31,6 +31,15 @@ article ul{
 
 
 }
+
+.pointformWhite{
+  background: #000000;
+  color: white;
+}
+.pointformBlack{
+  background: #000000;
+  color: white;
+}
  li{
    margin-left:25vw;
    margin-right:20vw;
