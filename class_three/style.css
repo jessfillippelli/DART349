@@ -85,9 +85,16 @@ article h1{
   text-transform: uppercase;
 }
 
-/* make img rep*/
-article img{
+/* make img rep  */
+/* article img{
   width: 100%;
+}  */
+
+
+.float-left{
+  width:20px;
+  float: left;
+  margin-left: 20px;
 }
 
 article p{
