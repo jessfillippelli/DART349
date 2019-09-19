@@ -94,9 +94,9 @@ article p{
   color: #ffffff;
   font-size: 200%;
   background-color: pink;
-  border: solid 10px #7FFFD4;
+  border-left: solid 40px #7FFFD4;
   padding:20px;
-  margin: 40px;
+  margin: 40px 100px;
 }
 
 
