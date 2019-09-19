@@ -1,4 +1,15 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+section{
+  width: 100%;
+  height: 100vh;
+  border: 1px solid black;
+}
+
+#s1{
+  background: url(../images/puppy.jpg) no-repeat fixed center center;
 }
