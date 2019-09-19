@@ -11,22 +11,20 @@ section{
   position: relative;
 }
 
-#s1{
-  background: url(../images/puppy.jpg) no-repeat fixed center center;
-  background-size: cover;
-}
 
 #s1 article{
   width: 40%;
+  height: 100vh;
   background-color: white;
   padding: 20px;
   position:absolute;
   bottom: 40px;
-  left: 40px;
+  right: 40px;
 }
 
 #s2 article{
   width: 30%;
+  height: 100vh;
   background-color: white;
   padding: 20px;
   position: absolute;
@@ -40,15 +38,21 @@ section{
   padding: 20px;
   position: absolute;
   bottom: 40px;
-  right: 40px;
+  left: 40px;
 }
 
+#s1{
+  background: url(../images/castle.jpg) no-repeat fixed center center;
+  background-size: cover;
+}
+
+
 #s2{
-  background: url(../images/dog.jpg) no-repeat fixed center center;
+  background: url(../images/dragon.jpg) no-repeat fixed center center;
   background-size: cover;
 }
 
 #s3{
-  background: url(../images/buddy.jpg) no-repeat fixed center center;
+  background: url(../images/wands.jpg) no-repeat fixed center center;
   background-size: cover;
 }
