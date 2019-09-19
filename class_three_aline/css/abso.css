@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+main{
+  background: #666;
+}
+
+
 body{
   background: grey;
 }
