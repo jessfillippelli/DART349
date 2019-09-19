@@ -6,10 +6,17 @@
 
 
 body{
-  background-color: #222;
+
   font-family: Gotham, Helvetica, Verdana, sans-serif;
 }
 
+#blue{
+  background-color: blue;
+}
+
+#GREY{
+    background-color: GREEN;
+}
 header{
   background: black;
   padding: 20px;
