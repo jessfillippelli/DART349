@@ -3,9 +3,24 @@
   padding: 0;
 }
 
+nav{
+  background: pink;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+}
+
 main{
   background: #666;
+  width: 50%;
+  margin:100px auto; 20px;
+  /*position: relative;*/
+  /* when parent is r, child is absolutly postinted inside or ot*/
 }
+
 
 
 body{
