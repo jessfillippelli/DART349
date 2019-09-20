@@ -3,37 +3,9 @@
   <head>
     <meta charset="utf-8">
       <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="script.js"></script>
     <title>Jessica Filippelli's DART 349 Site</title>
-    <script>
-    window.onload = function(){
-      let clickableElements = document.getElementsByClassName("clickable");
 
-      let clickHandler = function(event){
-      //  console.log("clicked  "+event.target.id);
-        if(event.target.id ==="AM"){
-          window.scrollTo(0, 0);
-
-        }
-        if(event.target.id ==="HP"){
-          let hpOffsetTop = document.getElementById("s2").offsetTop;
-          window.scrollTo(0, hpOffsetTop);
-
-        }
-        if(event.target.id ==="MP"){
-          let mpOffsetTop = document.getElementById("s3").offsetTop;
-          window.scrollTo(0, mpOffsetTop);
-
-        }
-
-      }
-      for(let i = 0; i<clickableElements.length;i++){
-        clickableElements[i].addEventListener("click",clickHandler);
-      }
-
-
-
-    }
-    </script>
   </head>
   <body>
 
@@ -81,35 +53,7 @@
 
 
 
-   <!-- <section id="s1">
 
-      <p>Samuel L. Jackson is an American actor, director and film producer.[1] In 2009, the collective total
-      of all box-office receipts for films that Jackson has starred in (including minor roles and cameos) is the highest of any on-screen actor.[2] As of December 2015,
-      Jackson appeared in over one hundred films with a worldwide box-office gross of approximately $8.6 billion to date.[3] Jackson's film career started in 1972 with a
-      role in the film Together for Days.[1] Over the next nineteen years he was cast in multiple films as minor characters up until his breakthrough role as Gator, a crack addict,
-      in the 1991 Spike Lee film Jungle Fever, for which Jackson won a special jury prize for best supporting actor at the Cannes International Film Festival.[4]</p>
-
-    </section>
-
-    <section id="s2">
-    <article>
-      <p>Samuel L. Jackson is an American actor, director and film producer.[1] In 2009, the collective total
-      of all box-office receipts for films that Jackson has starred in (including minor roles and cameos) is the highest of any on-screen actor.[2] As of December 2015,
-      Jackson appeared in over one hundred films with a worldwide box-office gross of approximately $8.6 billion to date.[3] Jackson's film career started in 1972 with a
-      role in the film Together for Days.[1] Over the next nineteen years he was cast in multiple films as minor characters up until his breakthrough role as Gator, a crack addict,
-      in the 1991 Spike Lee film Jungle Fever, for which Jackson won a special jury prize for best supporting actor at the Cannes International Film Festival.[4]</p>
-    </article>
-    </section>
-
-    <section id="s3">
-    <article>
-      <p>Samuel L. Jackson is an American actor, director and film producer.[1] In 2009, the collective total
-      of all box-office receipts for films that Jackson has starred in (including minor roles and cameos) is the highest of any on-screen actor.[2] As of December 2015,
-      Jackson appeared in over one hundred films with a worldwide box-office gross of approximately $8.6 billion to date.[3] Jackson's film career started in 1972 with a
-      role in the film Together for Days.[1] Over the next nineteen years he was cast in multiple films as minor characters up until his breakthrough role as Gator, a crack addict,
-      in the 1991 Spike Lee film Jungle Fever, for which Jackson won a special jury prize for best supporting actor at the Cannes International Film Festival.[4]</p>
-    </article>
-     </section> -->
 
 
 
