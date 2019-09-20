@@ -47,6 +47,25 @@ p{
   padding-top: 15px
 }
 
+a{
+  text-decoration: none;
+}
+
+a:visited {
+  display: inline-block;
+  padding: 20px;
+  color: pink;
+  text-decoration: none;
+}
+
+
+
+ a:active {
+  color: black;
+  color: #fff;
+  text-decoration: none;
+}
+
 /*article where teh text goes */
 #s1 article{
   margin-left:10%;
