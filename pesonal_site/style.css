@@ -19,6 +19,26 @@ section{
 
 }
 
+#AM{
+  font-family: Helvetica;
+  margin-top: 5px
+}
+
+#HP{
+  font-family: Helvetica;
+}
+
+#MP{
+  font-family: Helvetica;
+}
+
+.clickable:{
+  padding-top: 50px;
+}
+
+span{
+  padding-top: 50px;
+}
  nav{
   background: pink;
   text-align: center;
@@ -32,17 +52,24 @@ section{
 }
 
 h2{
-  font-size: 100px;
+  font-size: 50px;
   font-family: sans-serif;
 }
 
+p{
+  font-family: Helvetica;
+  padding-top: 15px
+}
+
+/*article where teh text goes */
 #s1 article{
   margin-left:10%;
   width: 83%;
-  background-color: #eef3f5;
+  background-color: #f3b3a6;
   position:relative;
   top:5%;
   height:75vh;
+
 
 
 }
@@ -50,7 +77,7 @@ h2{
 #s2 article{
   margin-left:10%;
   width: 83%;
-  background-color: #eef3f5;
+  background-color: #b98b82;
   position:relative;
   top:5%;
   height:75vh;
@@ -59,7 +86,7 @@ h2{
 #s3 article{
   margin-left:10%;
   width: 83%;
-  background-color: #eef3f5;
+  background-color: #e4959e;
   position:relative;
   top:5%;
   height:75vh;
