@@ -126,10 +126,11 @@ a:visited {
 /*  parent */
 #about {
   margin-left:15%;
-  width: 80%;
+  width: 100%;
   position:relative;
   top:5%;
   height:80vh;
+
 }
 
 #HW {
@@ -154,4 +155,35 @@ a:visited {
   position:relative;
   top:5%;
   height:80vh;
+}
+
+.flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+  width:50%;
+  margin-top: 1%;
+}
+
+.flex-container >#left{
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width:60%;
+  font-family: Helvetica;
+  font-size:50px;
+  padding-top: 5px;
+  font-family: 'Barlow', sans-serif;
+}
+
+.flex-container >#right{
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width:20%;
+  font-family: Helvetica;
+  font-size:12px;
+  padding-top: 15px;
+  font-family: 'Barlow', sans-serif;
 }
