@@ -2,24 +2,35 @@
   <head>
     <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title> Jessica Filippelli's DART 349 Website </title>
 
   </head>
   <nav>
-    <a href="index.html">About Me </a>
+    <!-- <a href="index.html">About Me </a>
     <a href="homework/index.html">Homework </a>
+    <a href="majorprojects/index.html">Major Projects</a> -->
+    <div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <!-- <a href="index.html">About Me </a> -->
+
+<a href="homework/index.html">Homework </a>
     <a href="majorprojects/index.html">Major Projects</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i> </a>
+</div>
 
  </nav>
 
 
  <body class="aboutme">
 
-
+ <h1 style="font-size:5vw;" >JESSICA FILIPPELLI</h1>
 
 
      <section id = "about">
            <article>
+
              <h2>ABOUT MOI </h2>
 
 
@@ -28,8 +39,8 @@
 
 
              <div class="flex-container">
-               <div id = "left"> <p>My name is Jessica Filippelli and i am a 3rd year student at Concordia University studying Computation Arts.  </p>
-                   <p> My interests include art, coding (obvs), sports, karate, reading and my new love 3D printing.  </p>
+               <div id = "left"> <p style="font-size:5vw;">I am a 3rd year student at Concordia University studying Computation Arts.  </p>
+                   <p style="font-size:5vw;"> My interests include art, coding (obvs), sports, karate, reading and my new love 3D printing.  </p>
 
 
                </div>
@@ -40,8 +51,28 @@
 
 
 
-
+         <script>
+         function myFunction() {
+           var x = document.getElementById("myTopnav");
+           if (x.className === "topnav") {
+             x.className += " responsive";
+           } else {
+             x.className = "topnav";
+           }
+         }
+         </script>
 
 
  </body>
+
+
+
+
+
+
+
+
+
+
+
 </html>
