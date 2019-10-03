@@ -55,7 +55,7 @@ body {margin: 0;}
 
 /* responsive stuff for big screen */
 
-@media screen and (min-width: 850px){
+@media screen and (min-width: 857px){
 /* #photo{width: 100%;} */
 .flex-container {
   display: flex;
@@ -80,7 +80,7 @@ body {margin: 0;}
 .flex-container >#right{
   /* background-color: #f1f1f1;*/
   margin: 10px;
-  width:50%;
+  width:90%;
   font-family: Helvetica;
   font-size:12px;
   font-family: 'Barlow', sans-serif;
@@ -127,6 +127,7 @@ body h1{
   font-family: sans-serif;
   font-family: 'Barlow', sans-serif;
   color: #1f0812;
+  padding-top: 1%;
 }
 
 a{
@@ -218,15 +219,7 @@ nav {
   margin-left:30%;
 }
 
-/*.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}*/
+
 
 .topnav a:hover {
   /* background-color: black; */
@@ -248,7 +241,7 @@ nav {
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
-    float: center;
+    float: left;
     display: block;
   }
 }
