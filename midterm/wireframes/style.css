@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/*GLOBAL CODE*/
+header {
+	padding: 32px;
+}
+
+footer {
+	padding: 10px 10px;
+	background-color: #de6d70;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*WHAT DOES THIS DO? THE CLEAR PROPERTY TO GET THE ROW AND COL TO BEHAVE THEMSELFS*/
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear:both;
+}
+
+/*everything for the header text color alignment etc*/
+.hero{
+	background-image: url(images/H_HEADER.jpg);
+	background-size: cover;
+	padding: 20px 20px 50px 20px;
+	color: #DEB82D;
+	text-align: center;
+}
+
+
+
+p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	text-align: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+
+.info-box-essay{
+	text-align: center;
+}
+
+
+
+.footer-text {
+	font-size: 15px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #000000;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+
+}
+
+.col{
+	width: 100%;
+}
+
+/*tablet view*/
+@media (min-width: 768px){
+	body {
+		max-width: 776px;
+	}
+	.style-nav ul li{
+		display: inline-block;
+	}
+
+	/*to center nav*/
+	.style-nav ul{
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 40px;
+		color: #de6d70;
+		font-family: 'Fjalla One', sans-serif;
+
+	}
+
+.Footnotes	h2{
+		font-size: 20px;
+	}
+
+
+
+.Footnotes{
+	font-style: italic;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 27px;
+	margin-bottom: 2px;
+}
+
+	.col-md-one-half {
+		width: 50%;
+	}
+
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+
+
+}
+
+/*desktop view*/
+@media (min-width: 1024px){
+
+	body {
+		max-width: 1200px;
+	}
+
+	.style-logo {
+		float: left;
+	}
+
+	.style-nav{
+		float: right;
+	}
+
+
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+
+
+}
