@@ -44,6 +44,7 @@ article h2 {
 	color: black;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	font-weight: 400;
 }
 
 article h3 {
@@ -52,10 +53,20 @@ article h3 {
 	color: black;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	font-weight: 400;
 }
 
+div{
+	padding-bottom: 10px;
+
+}
+
+a:hover{
+	padding-bottom: 10px;
+	color: #de6d70;
 
 
+}
 
 /*tablet view*/
 @media (min-width: 768px){
