@@ -18,10 +18,10 @@ header {
 }
 
 
-/* body {
-	margin-left: auto;
-	margin-right: auto;
-} */
+.responsive {
+  width: 100%;
+  height: auto;
+}
 
  h2{
 	font-size: 20px
@@ -32,6 +32,7 @@ article h1 {
 	font-family: 'Big Shoulders Display', cursive;
 	font-size: 25px;
 	color: black;
+	padding: 0;
 }
 
 article h2 {
@@ -50,6 +51,14 @@ article h3 {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	font-weight: 400;
+}
+
+.move{
+	padding-left: 5%;
+}
+
+.smallmove{
+	padding-left: 5%;
 }
 
 div{
