@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+/*GLOBAL CODE*/
+header {
+	padding: 32px;
+}
+
+footer {
+	padding: 10px 10px;
+	background-color: #de6d70;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ h2{
+	font-size: 20px
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+article h1 {
+	font-family: 'Big Shoulders Display', cursive;
+	font-size: 25px;
+	color: black;
+}
+
+article h2 {
+	font-family: 'Dosis', sans-serif;
+	font-size: 25px;
+	color: black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: 400;
+}
+
+article h3 {
+	font-family: 'Quicksand', light;
+	font-size: 25px;
+	color: black;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: 400;
+}
+
+div{
+	padding-bottom: 10px;
+
+}
+
+a:hover{
+	padding-bottom: 10px;
+	color: #de6d70;
+
+
+}
+
+/*tablet view*/
+@media (min-width: 768px){
+	body {
+		max-width: 776px;
+	}
+	.style-nav ul li{
+		display: inline-block;
+	}
+
+	/*to center nav*/
+	.style-nav ul{
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 40px;
+		color: #de6d70;
+		font-family: 'Fjalla One', sans-serif;
+		padding-bottom: 10px;
+		padding-top: 10px;
+
+	}
+	p{
+		font-size: 20px;
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+
+
+.Footnotes	h2{
+		font-size: 20px;
+	}
+
+
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 27px;
+	margin-bottom: 2px;
+}
+
+	.col-md-one-half {
+		width: 50%;
+	}
+
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+
+
+}
+
+/*desktop view*/
+@media (min-width: 1024px){
+
+	body {
+		max-width: 1200px;
+	}
+
+	.style-logo {
+		float: left;
+	}
+
+	.style-nav{
+		float: right;
+	}
+
+
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+
+
+}
