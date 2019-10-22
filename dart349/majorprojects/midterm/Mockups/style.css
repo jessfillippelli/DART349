@@ -2,6 +2,79 @@
 /* CSS Document */
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
 /* Style the Image Used to Trigger the Modal */
+ html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Fjalla One', sans-serif;
+}
+header {
+ padding: 32px;
+}
+
+ p {
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 25px;
+	text-align: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+/*tablet view*/
+ @media (min-width: 768px){
+	body {
+		max-width: 776px;
+	}
+	.style-nav ul li{
+		display: inline-block;
+	}
+
+.Footnotes{
+	font-style: italic;
+}
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 27px;
+	margin-bottom: 2px;
+}
+
+	.col-md-one-half {
+		width: 50%;
+	}
+
+	.col {
+		float: left;
+		padding: 0px 7px 14px;
+	}
+
+
+}
+
+/*desktop view*/
+ @media (min-width: 1024px){
+
+	body {
+		max-width: 1200px;
+	}
+
+	.style-logo {
+		float: left;
+	}
+
+	.style-nav{
+		float: right;
+	}
+
+
+	.col-lg-one-fourth {
+		width: 25%;
+	}
+
+
+}
+
+
 .myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -103,115 +176,7 @@ img{
 	width:80%;
 }
 
-/* html,
-html * {
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
+h1 {
+	font-size: 40px;
+	color: #de6d70;
 	font-family: 'Fjalla One', sans-serif;
-} */
-
-
-/* header {
-	padding: 32px;
-} */
-
-
-
-/* .responsive {
-  width: 100%;
-  height: auto;
-	padding-left: 10px;
-} */
-
-
-
-
-
-
-
-/* p {
-	font-size: 16px;
-	font-weight: 400;
-	margin-bottom: 25px;
-	text-align: left;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-}
-
-
-img{
-	width: 200vh;
-	height: 100vh;
-} */
-
-/*tablet view*/
-/* @media (min-width: 768px){
-	body {
-		max-width: 776px;
-	}
-	.style-nav ul li{
-		display: inline-block;
-	} */
-
-	/*to center nav*/
-	/* .style-nav ul{
-		text-align: center;
-	}
-
-	h1 {
-		font-size: 40px;
-		color: #de6d70;
-		font-family: 'Fjalla One', sans-serif;
-
-	} */
-
-/* .Footnotes	h2{
-		font-size: 20px;
-	} */
-
-
-
-/* .Footnotes{
-	font-style: italic;
-}
-a{
-	text-decoration: none;
-	color: black;
-	font-size: 27px;
-	margin-bottom: 2px;
-}
-
-	.col-md-one-half {
-		width: 50%;
-	}
-
-	.col {
-		float: left;
-		padding: 0px 7px 14px;
-	}
-
-
-} */
-
-/*desktop view*/
-/* @media (min-width: 1024px){
-
-	body {
-		max-width: 1200px;
-	}
-
-	.style-logo {
-		float: left;
-	}
-
-	.style-nav{
-		float: right;
-	}
-
-
-	.col-lg-one-fourth {
-		width: 25%;
-	}
-
-
-} */
