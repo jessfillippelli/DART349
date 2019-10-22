@@ -14,34 +14,14 @@ header {
 	padding: 32px;
 }
 
-footer {
-	padding: 10px 10px;
-	background-color: #de6d70;
-}
 
-body {
+
+/* body {
 	margin-left: auto;
 	margin-right: auto;
-}
+} */
 
-/*WHAT DOES THIS DO? THE CLEAR PROPERTY TO GET THE ROW AND COL TO BEHAVE THEMSELFS*/
-.row:before, .row:after {
-	content: "";
-	display: table;
-}
 
-.row:after {
-	clear:both;
-}
-
-/*everything for the header text color alignment etc*/
-.hero{
-	background-image: url(images/H_HEADER.jpg);
-	background-size: cover;
-	padding: 20px 20px 50px 20px;
-	color: #DEB82D;
-	text-align: center;
-}
 
 
 
@@ -54,23 +34,9 @@ p {
 }
 
 
-.info-box-essay{
-	text-align: center;
-}
-
-
-
-.footer-text {
-	font-size: 15px;
-	margin-bottom: 20px;
-	text-align: center;
-	color: #000000;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-
-}
-
-.col{
-	width: 100%;
+img{
+	width: 200vh;
+	height: 100vh;
 }
 
 /*tablet view*/

@@ -2,8 +2,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mockups</title>
 <link rel="stylesheet" href="style.css">
+<!-- <script src="imagepopup.js"></script> -->
 </head>
 
 <body>
@@ -13,62 +15,41 @@
 	<h1> Part Four: Mockups </h1>
 	</header>
 
-<div>
 
 
-	<p>DESKTOP</p>
-	<div class="slideshow-container">
-		<div class="mySlides2">
-			<img src="images/home_desktop.png" style="width:100%">
-		</div>
 
-		<div class="mySlides2">
-			<img src="images/facts_desktop.png" style="width:100%">
-		</div>
 
-		<div class="mySlides2">
-			<img src="img_band_ny.jpg" style="width:100%">
-		</div>
+	<img src="images/home_desktop.png" class="responsive">
+	<img src="images/facts_desktop.png" class="responsive">
+	<img src="images/social_desktop.png" class="responsive">
 
-		<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-		<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
-	</div>
+
+</body>
+
+
+
+	<!-- <h1> Desktop Mockups </h1>
+<div >
+	<img id="myImg" src="images/home_desktop.png"  style="width:100%;max-width:300px">
+	<img id="myImg" src="images/facts_desktop.png"  style="width:100%;max-width:300px">
+	<img id="myImg" src="images/social_desktop.png"  style="width:100%;max-width:300px">
 </div>
 
-<script>
-var slideIndex = [1,1];
-var slideId = ["mySlides1", "mySlides2"]
-showSlides(1, 0);
-showSlides(1, 1);
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function showSlides(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
-  }
-  x[slideIndex[no]-1].style.display = "block";
-}
-</script>
+<h1> Mobile Mockups </h1>
+<div >
+	<img id="myImg" src="images/home_desktop.png"  style="width:100%;max-width:300px">
+	<img id="myImg" src="images/facts_desktop.png"  style="width:100%;max-width:300px">
+	<img id="myImg" src="images/social_desktop.png"  style="width:100%;max-width:300px">
+</div> -->
 
 
-	<!-- <footer>
-		<div class="row">
-			<div class="col">
-				<p class="footer-text"> Part One: Essay </p>
-				<p class="footer-text"> Jessica Filippelli </p>
-			</div>
-		</div>
-	</footer> -->
+<!-- The Modal -->
+<!-- <div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+	<img class="modal-content" id="img02">
 
-
-
+</div> -->
 
 
 </body>

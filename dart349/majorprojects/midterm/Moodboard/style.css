@@ -17,15 +17,11 @@ header {
 	padding: 32px;
 }
 
-footer {
-	padding: 10px 10px;
-	background-color: #de6d70;
-}
 
-body {
+/* body {
 	margin-left: auto;
 	margin-right: auto;
-}
+} */
 
  h2{
 	font-size: 20px
@@ -58,14 +54,11 @@ article h3 {
 
 div{
 	padding-bottom: 10px;
-
 }
 
 a:hover{
 	padding-bottom: 10px;
 	color: #de6d70;
-
-
 }
 
 /*tablet view*/
@@ -95,12 +88,6 @@ a:hover{
 		padding-bottom: 15px;
 		padding-top: 15px;
 	}
-
-
-.Footnotes	h2{
-		font-size: 20px;
-	}
-
 
 
 a{
