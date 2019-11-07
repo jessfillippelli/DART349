@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#gallery{
+  background: #eee;
+  width: 80%;
+  min-height: 70vh;
+  height: auto;
+  display: flex;
+  /* flex-flow:row wrap; */
+  justify-content: space-between;
+  align-content: center;
+}
+
+figure{
+  width: 400px;
+  height: 300px;
+  background: pink;
+  margin: 20px;
+  transition:all .3s;
+}
+
+figure:hover{
+  box-shadow: 2px 2px 0 #333, 3px 3px 0 #333, 4px 4px 0 #333, 5px 5px 0 #333, 6px 6px 0 #333;
+}
+
+#f1{
+  background: url(../images/one.png) no-repeat center center;
+}
+
+#f1:hover{
+  background: url(../images/one.png) no-repeat right center;
+}
+
+#f2{
+  background: url(../images/one.png) no-repeat center center;
+}
+
+#f2:hover{
+  background: url(../images/one.png) no-repeat right center;
+}
+
+#f3{
+  background: url(../images/one.png) no-repeat center center;
+}
+
+#f3:hover{
+  background: url(../images/one.png) no-repeat right center;
+}
+
+#f4{
+  background: url(../images/one.png) no-repeat center center;
+}
+
+#f4:hover{
+  background: url(../images/one.png) no-repeat right center;
+}
+
+figure h1 {
+  text-align: center;
+  color: #fff;
+  font-family: gotham;
+  font-size: 91px;
+  text-shadow: 0 0 20px rgba(0,0,0, .5);
+   /* position: absolute;
+  top: 20px;
+  width: 100%; */
+  transition:all .3s;
+}
+
+figure:hover h1{
+  top: 100px;
+}
+
+figure figcaption{
+  color: pink;
+  font-style: oblique;
+  background:rgba(0,0,0, .5);
+  padding: 20px;
+  /* position: absolute; */
+  /* bottom: -100; */
+  /* transition: all .3s .2s; */
+
+}
+
+figure:hover figcaption{
+  bottom: 0;
+}
+
+header h1{
+  font-family: fantasy;
+  text-align: center;
+  font-size:1vmax;
+  position: relative;
+  left:40px;
+  display:inline-block;
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  from {opacity:0; left:240px;}
+  to{opacity:1; left:40px;}
+
+}
+
+#anim{
+  position: absolute;
+  top:30px;
+  right:40px;
+  width: 100px;
+  height: 100px;
+  background: green;
+
+}
+
+#anim:hover{
+  animation: rotateThis 4s infinite linear;
+}
+
+@keyframes rotateThis {
+  0% {transform: rotate(0deg); background: pink;}
+  25% {background: black;}
+  50% {background: blue;}
+  75 {background: yellow;}
+  100% {transform: rotate(360deg); background: pink;}
+}
